@@ -1,0 +1,16 @@
+.header {
+    height: 70px;
+    background-color: rgb(117, 108, 96);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+.links{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    font-family: 'sans-serif';
+}
