@@ -19,8 +19,73 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
+    padding-top: 1%;
 }
-.logoImagens {    
-    width: 60%;
+
+.aboutInfo {   
+    width: 80%;
+    padding: 10px;
+    font-size: larger;
+}
+.aboutMe {
+    padding-top: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
+.deg1 {
+    transform: rotate(270deg) translate(10em) rotate(-270deg);
+    top: 50px;
+    position: relative;
+  }
+
+  
+  .deg2 {
+    transform: translate(10em);
+  }
+  .deg7 {
+    transform: rotate(90deg) translate(10em) rotate(-90deg);
+  }
+  .deg8 {
+    transform: rotate(-45deg) translate(10em) rotate(45deg);
+  }
+ 
+  .deg3 {
+    transform: rotate(45deg) translate(10em) rotate(-45deg);
+  }
+  
+
+  .deg4 {
+    transform: rotate(135deg) translate(10em) rotate(-135deg);
+  }
+
+  
+  .deg5 {
+    transform: translate(-10em);
+  }
+  
+  .deg6 {
+    transform: rotate(225deg) translate(10em) rotate(-225deg);
+  }
+  
+  
+  .logoImagens {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+  }
+  
+  .logoImagens img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4em;
+    height: 4em;
+    margin: -2em;
+  }
+  
