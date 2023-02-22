@@ -9,6 +9,7 @@ class Contact extends React.Component {
             <Header/>
             <div className='contact'>
               <h1>Contact</h1>
+              <h1>Email</h1>
             </div>
         </div>
     );
