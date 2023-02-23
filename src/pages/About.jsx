@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header'
 import './About.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import node from '../image/node.png'
 import rtl  from '../image/rtl.png'
 class About extends React.Component {
@@ -10,6 +11,7 @@ class About extends React.Component {
           <Header/>
           <div className='about'>
             <div className='skills'>
+              <h1>Skills</h1>
               <div className='logoImagens'>
                 <img className='deg4' src='https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg' alt="Logo HTML" />
                 <img className='deg2' src='https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg' alt="Logo CSS" />

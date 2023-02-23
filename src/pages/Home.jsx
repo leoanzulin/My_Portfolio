@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header'
 import perfil from '../image/perfil.jpg'
 import './Home.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Home extends React.Component {
   render() {
