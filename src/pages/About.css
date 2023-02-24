@@ -6,6 +6,7 @@
     justify-content: space-around;
     position: absolute;
     width: 100vw;    
+    color: white;
 }
 .logoImagens img {
     width: 100px;

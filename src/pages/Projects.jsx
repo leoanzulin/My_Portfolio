@@ -8,7 +8,7 @@ class Projects extends React.Component {
         <div>
             <Header/>
             <div className='projects'>
-              <h1>Projects</h1>
+              <h1>Em breve...</h1>
             </div>
         </div>
     );

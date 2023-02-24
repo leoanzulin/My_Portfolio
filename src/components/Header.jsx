@@ -8,12 +8,12 @@ class About extends React.Component {
     return (
       <div className='header'>
         <div className='name'>
-          <Link to="/"> Leonardo Anzulin </Link>
+          <Link to="/" style={{textDecoration:"none"}}> Leonardo Anzulin </Link>
         </div>
         <div className='links'>         
-         <Link to="/about"> Sobre </Link>
-         <Link to="/projects"> Projetos </Link>
-         <Link to="/contact"> Contato </Link>
+         <Link to="/about" style={{textDecoration:"none"}}> Sobre </Link>
+         <Link to="/projects" style={{textDecoration:"none"}}> Projetos </Link>
+         <Link to="/contact" style={{textDecoration:"none"}}> Contato </Link>
          </div>
       </div>
     );

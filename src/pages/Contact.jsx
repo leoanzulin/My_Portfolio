@@ -33,11 +33,13 @@ class Contact extends React.Component {
     return (
         <div>
             <Header/>
-            <div className='contact'>              
+            <div className='contact'>
+              <div>
+            <h4>Fale comigo:</h4>              
               <form onSubmit={this.handleSubmit} className='contactForm'>
                 {isSended ? <h4>Obrigado pelo contato!</h4> :
                 (<>
-                    <h4>Fale comigo:</h4>
+                    
                     <input required min={3} name="nome" placeholder="Nome" />
                     <input required name="email" placeholder="E-mail" />
                     <input required min={3} name="assunto" placeholder="Assunto" />
@@ -45,14 +47,15 @@ class Contact extends React.Component {
                     <button type="submit">Enviar</button>
                 </>)}
               </form> 
+              </div>
               <div className='socialMidias'>
-                <h1>social midias</h1>               
+                <h4>Redes sociais:</h4>               
                 <button onClick= {()=>{window.open("https://www.linkedin.com/in/leoanzulin/",
-              "_blank")}}>LinkeDin</button>
+              "_blank")}}>{<img className='socialLogo' src='https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg' alt="Logo LinkeDin" />}</button>
                 <button onClick= {()=>{window.open("https://github.com/leoanzulin",
-              "_blank")}}>GitHub</button>
+              "_blank")}}>{<img className='LogoGitHub' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt="Logo GitHub" />}GitHub</button>
                 <button onClick= {()=>{window.open("https://wa.me/5516993464300",
-              "_blank")}}>WhatsApp</button>
+              "_blank")}}>{<img className='socialLogo' src='https://vetores.org/d/whatsapp.svg' alt='Logo WhatsApp'/>}</button>
               </div>
             </div>
         </div>

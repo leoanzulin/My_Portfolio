@@ -1,17 +1,40 @@
 .contact { 
     align-items: center;
-    background-color: rgb(51, 51, 51);
+    background-color:  rgb(51, 51, 51);
     display: flex;
     height: 89.9vh;
     justify-content: space-around;
     position: absolute;
-    width: 100vw;    
+    width: 100vw;
+    color: white;
 }
 .contactForm {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    height: 300px;
+    justify-content: space-around;
+    padding: 20px;
+    border-style: dotted;
+    border-radius: 10px;
 }
 .socialMidias{
     display: flex;
     flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+.socialMidias button{
+    background-color:  rgb(51, 51, 51);
+    border-color: white;
+    width: 300px;
+    border-radius: 5px;
+}
+.socialLogo{
+    width: 100px;
+    height: 50px;
+}
+.LogoGitHub{
+    height: 50px;
+    padding: 8px;
 }
