@@ -1,11 +1,12 @@
 .contact { 
     align-items: center;
-    background-color: rgb(51, 51, 51);
+    background-color: #40453D;
     display: flex;
     height: 89.9vh;
     justify-content: space-around;
     position: absolute;
-    width: 100vw;    
+    width: 100vw;
+    color: white;
 }
 .contactForm {
     display: flex;
@@ -14,4 +15,15 @@
 .socialMidias{
     display: flex;
     flex-direction: column;
+}
+.socialMidias button{
+    background-color: #40453D;
+}
+.socialLogo{
+    width: 100px;
+    height: 50px;
+}
+.LogoGitHub{
+    height: 50px;
+    padding: 8px;
 }
