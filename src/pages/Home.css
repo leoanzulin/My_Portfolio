@@ -14,3 +14,9 @@
     border-radius: 100px;
     width: 30%;
 }
+.textArea h1 {
+    font-size: 400%;    
+}
+.textArea h2 {
+    font-size: 250%;
+}

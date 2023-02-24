@@ -10,7 +10,7 @@ class Home extends React.Component {
       <div>
         <Header/>  
         <div className='home'> 
-          <div>
+          <div className='textArea'>
             <h1>Olá!</h1>          
             <h2>Eu sou Leonardo Anzulin,</h2>
             <h2>Desenvolvedor Web Front-End.</h2>
