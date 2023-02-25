@@ -14,7 +14,7 @@ class Home extends React.Component {
             <h1>Olá!</h1>          
             <h2>Eu sou Leonardo Anzulin,</h2>
             <h2>Desenvolvedor Web Front-End.</h2>
-            <h3>Bem-vindo ao meu portifolio : )</h3>
+            <h3>Bem-vindo ao meu portifólio : )</h3>
           </div> 
           <img className='perfilImage' src={perfil} alt="foto de perfil"/>
         </div> 
