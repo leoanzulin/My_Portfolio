@@ -8,15 +8,15 @@
     border-bottom-style: dashed;
     border-color: white;
 }
-.links{
+.links {
     width: 300px;
     display: flex;
     justify-content: space-around;
     margin-right: 5%;
 }
-.name{
+.name {
     margin-left: 5%;
 }
-Link{
+Link {
     text-decoration: none;
 }
