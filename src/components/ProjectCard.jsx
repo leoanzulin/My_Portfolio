@@ -12,7 +12,7 @@ const ProjectCard = ({project}) => {
             <button onClick= {()=>{window.open(deploy,
               "_blank")}}>Deploy</button>
             <button onClick= {()=>{window.open(repository,
-              "_blank")}}>Repositorio</button>
+              "_blank")}}>Repositório</button>
         </div>
     );
 };
