@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../components/Header'
-import './About.css'
+import Header from '../components/Header';
+import './About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import node from '../image/node.png'
-import rtl  from '../image/rtl.png'
+import node from '../image/node.png';
+import rtl  from '../image/rtl.png';
 class About extends React.Component {
   render() {
     return (
@@ -33,7 +33,7 @@ class About extends React.Component {
           </div>
         </div>
     );
-  }
-}
+  };
+};
 
 export default About;

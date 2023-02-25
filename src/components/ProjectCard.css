@@ -1,0 +1,13 @@
+.card {
+    width: 300px;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-color: white;    
+}
+.card button {
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
