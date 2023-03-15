@@ -5,8 +5,10 @@ import './Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
+
 class Home extends React.Component {
   render() {
+
     return (
       <div>
         <div className='home'> 

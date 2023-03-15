@@ -32,8 +32,8 @@ class Contact extends React.Component {
     const { isSended } = this.state;
     return (
         <div>
-            <Header/>
             <div className='contact'>
+            <Header/>
               <div className='formBox'>
                 <h4>Fale comigo:</h4>              
                 <form onSubmit={this.handleSubmit} className='contactForm'>
