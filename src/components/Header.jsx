@@ -14,7 +14,6 @@ class About extends React.Component {
           <Link to="/about" style={{textDecoration:"none"}}> Sobre </Link>
           <Link to="/projects" style={{textDecoration:"none"}}> Projetos </Link>
           <Link to="/contact" style={{textDecoration:"none"}}> Contato </Link>
-          <button>Download CV</button>
         </div>
       </div>
     );
